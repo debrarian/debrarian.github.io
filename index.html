@@ -1,8 +1,9 @@
+<!--
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Debra Fagan, Librarian and Computer Geek</title>
-		<!-- link to main stylesheet -->
+		<title>Debra Fagan, Librarian and Programmer</title>
+		<!-- link to main stylesheet --><!--
 		<link rel="stylesheet" type ="text/css" href="/css/main.css">
 	</head>
 	<body>
@@ -10,16 +11,16 @@
     		<ul>
         		<li><a href="/">Home</a></li>
 	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
+        		<li><a href="/cv">Resume</a></li>
+        		<!-- <li><a href="/blog">Blog</a></li> -->
     		</ul>
 		</nav>
 		<div class="container">
     		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
+        		<h1>Welcome to the website of Debra Fagan</h1>
 				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
     		</div><!-- /.blurb -->
-		</div><!-- /.container -->
+		</div><!-- /.container --><!--
 		<footer>
     		<ul>
         		<li><a href="mailto:debra.a.fagan@gmail.com">email</a></li>
@@ -27,4 +28,72 @@
 			</ul>
 		</footer>
 	</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #ddd;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <h2>Auto Sidebar</h2>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#clients">Clients</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<div class="main">
+  <h2>Auto Sidebar</h2>
+  <p>This sidebar is as tall as its content (the links), and is always shown.</p>
+  <p>Scroll down the page to see the result.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+</div>
+
+</body>
 </html>
