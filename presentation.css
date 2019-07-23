@@ -18,18 +18,7 @@ h3 {
 
 h4 { 
   font-family: Helvetica, Arial, sans-serif;
-  float: left;
-  color: #cc0000;
-  text-align: center;
-  padding: 2px 126px 2px 154px;
-  text-decoration: none;
-  font-size: 28px;
-  display: block;
-  margin-top: 0.1em;
-  margin-bottom: 0.1em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: 200;
+  color: #303030;
 }
 
 pre code {
