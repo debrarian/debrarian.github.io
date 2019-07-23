@@ -31,6 +31,9 @@ pre code {
 p.bookmark { 
   background: yellow;
 }
+p.thick {
+  font-weight: bold;
+}
 .sidenav {
   width: 150px;
   position: fixed;
