@@ -11,6 +11,9 @@ h3 {
   color: #cc0000;
   margin-top: 36px;
 }
+h4 {
+  color: #303030;
+}
 pre code {
   background-color: #F0F0F0;
   border: 1px solid #999;
@@ -26,7 +29,7 @@ p.bookmark {
   background: yellow;
 }
 .sidenav {
-  width: 130px;
+  width: 150px;
   position: fixed;
   z-index: 1;
   top: 115px;
