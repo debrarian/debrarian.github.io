@@ -31,7 +31,7 @@ p.bookmark {
 }
 
 .sidenav {
-  width: 140px;
+  width: 150px;
   position: fixed;
   z-index: 1;
   top: 115px;
@@ -102,7 +102,7 @@ p.bookmark {
 }
 
 .main {
-  margin-left: 154px; /* Same width as the sidebar + left position in px */
+  margin-left: 164px; /* Same width as the sidebar + left position in px */
   margin-top: 115px;
   font-size: 16px; /* Increased text to enable scrolling */
   padding: 0px 10px;
