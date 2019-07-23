@@ -2,24 +2,15 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
-
 h2 {
   color: #cc0000;
 }
-
 h3 {
+  color: #696969;
   font-weight: 400;
   color: #cc0000;
-  /* margin-top: 115px; */
-  margin-top: 20px;
-  float: left;
+  margin-top: 36px;
 }
-
-h4 { 
-  font-family: Helvetica, Arial, sans-serif;
-  color: #303030;
-}
-
 pre code {
   background-color: #F0F0F0;
   border: 1px solid #999;
@@ -34,9 +25,8 @@ pre code {
 p.bookmark { 
   background: yellow;
 }
-
 .sidenav {
-  width: 150px;
+  width: 130px;
   position: fixed;
   z-index: 1;
   top: 115px;
@@ -45,7 +35,6 @@ p.bookmark {
   overflow-x: hidden;
   padding: 8px 0;
 }
-
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
@@ -58,7 +47,6 @@ p.bookmark {
 .sidenav a:hover {
   color: #ddd;
 }
-
 .topnav {
   width:100%;
   position: fixed;
@@ -66,11 +54,11 @@ p.bookmark {
   top: 0px;
   left: 8px;
   background: #D3D3D3;
-  padding: 2px 0;
+  /*  overflow-x: hidden; */
+  padding: 8px 0;
   overflow: hidden;
   background-color: #DCDCDC;
 }
-
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -79,23 +67,20 @@ p.bookmark {
   text-decoration: none;
   font-size: 17px;
 }
-
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
-
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
 }
-
 .topnav h1 {
   font-family: Helvetica, Arial, sans-serif;
   float: left;
   color: #cc0000;
   text-align: center;
-  padding: 2px 126px 2px 174px;
+  padding: 2px 126px 2px 154px;
   text-decoration: none;
   font-size: 36px;
   display: block;
@@ -104,16 +89,13 @@ p.bookmark {
   margin-left: 0;
   margin-right: 0;
   font-weight: 200;
-  letter-spacing: 1px;
 }
-
 .main {
   margin-left: 174px; /* Same width as the sidebar + left position in px */
-  margin-top: 145px;
-  font-size: 16px; /* Increased text to enable scrolling */
+  margin-top: 115px;
+  font-size: 16px;
   padding: 0px 10px;
 }
-
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 15px;}
