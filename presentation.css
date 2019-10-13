@@ -68,7 +68,7 @@ p.thick {
   left: 8px;
   background: #467AAA;
   /*  overflow-x: hidden; */
-  padding: 8px 0;
+  padding: 0px 0;
   overflow: hidden;
     /*  background-color: #DCDCDC; 555555*/
 }
