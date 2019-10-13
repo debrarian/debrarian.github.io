@@ -125,7 +125,8 @@ p.thick {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: #234a71;
+   /*background-color: #234a71;*/
+   background-color: #467AAA;
    color: white;
    text-align: center;
    font-size: 10px;
