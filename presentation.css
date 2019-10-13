@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family:'Arial', 'Helvetica', 'Sans-Serif';
   font-weight: 300;
 }
 li{
@@ -47,7 +47,7 @@ p.thick {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family:'Arial', 'Helvetica', 'Sans-Serif';
   font-weight: 500;
   color: #fff;
   display: block;
@@ -84,7 +84,7 @@ p.thick {
   color: white;
 }
 .topnav h1 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family:'Arial', 'Helvetica', 'Sans-Serif';
   float: left;
   color: #467AAA;
   text-align: center;
