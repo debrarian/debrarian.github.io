@@ -70,11 +70,11 @@ p.thick {
   /*  overflow-x: hidden; */
   padding: 8px 0;
   overflow: hidden;
-    /*  background-color: #DCDCDC;
+    /*  background-color: #DCDCDC; */
 }
 .topnav a {
   float: left;
-  /*  color: #f2f2f2;
+  /*  color: #f2f2f2; */
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -92,7 +92,8 @@ p.thick {
 .topnav h1 {
   font-family:'Arial', 'Helvetica', 'Sans-Serif';
   float: left;
-  color: #467AAA;
+  /*  color: #467AAA; */
+  color: white;
   text-align: center;
   padding: 2px 126px 2px 184px;
   text-decoration: none;
