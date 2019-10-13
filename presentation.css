@@ -6,11 +6,11 @@ li{
     margin-top: 12px;
 }
 h2 {
-  color: ##99badd;
+  color: #467AAA;
 }
 h3 {
   font-weight: 400;
-  color: ##99badd;
+  color: #467AAA;
   margin-top: 36px;
 }
 h4 {
@@ -39,7 +39,7 @@ p.thick {
   z-index: 1;
   top: 115px;
   left: 8px;
-  background: #99badd;
+  background: #467AAA;
   overflow-x: hidden;
   padding: 8px 0;
 }
@@ -86,7 +86,7 @@ p.thick {
 .topnav h1 {
   font-family: Helvetica, Arial, sans-serif;
   float: left;
-  color: #99badd;
+  color: #467AAA;
   text-align: center;
   padding: 2px 126px 2px 184px;
   text-decoration: none;
