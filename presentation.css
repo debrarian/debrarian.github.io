@@ -113,11 +113,11 @@ p.thick {
 }
 .footer {
   width:100%;
-  position: fixed;
+  /* position: fixed; */
   z-index: 1;
   /*  top: 0px;
   left: 8px;
-  background: #234a71;
+  background-color: #234a71;
   /*  overflow-x: hidden; */
   padding: 8px 0;
   overflow: hidden;
