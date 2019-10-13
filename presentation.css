@@ -73,7 +73,7 @@ p.thick {
   position: fixed;
   z-index: 1;
   top: 0px;
-  left: 8px;
+  left: 0px;
   background: #467AAA;
   /*  overflow-x: hidden; */
   padding: 0px 0;
