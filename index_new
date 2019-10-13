@@ -1,0 +1,8 @@
+<body>
+ <div id="page-container">
+   <div id="content-wrap">
+     <!-- all other page content -->
+   </div>
+   <footer id="footer"></footer>
+ </div>
+</body>
