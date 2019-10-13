@@ -119,8 +119,10 @@ p.thick {
   left: 8px;
   background-color: #234a71;
   /*  overflow-x: hidden; */
-  padding: 8px 0;
+  padding: 2px 0;
   overflow: hidden;
+  font-color: white;
+  font-size: 10px;
     /*  background-color: #DCDCDC; 555555*/
 }
 
